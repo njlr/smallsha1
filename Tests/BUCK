@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'Tests',
+  srcs = [
+    'main.cpp',
+  ],
+  deps = [
+    '//:smallsha1',
+  ],
+)

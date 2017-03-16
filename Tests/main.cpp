@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
     char teststr[1001];
     int end = 0;
     compare[40] = hexstring[40] = 0;
-    FILE* fh = fopen("1000sha1.txt", "r"); // file have been externally generated with PHP script.
+    FILE* fh = fopen("Tests/1000sha1.txt", "r"); // file have been externally generated with PHP script.
     for (int i = 0; i < 1000; ++i)
     {
         sprintf(&teststr[end], "%d", i % 10);
